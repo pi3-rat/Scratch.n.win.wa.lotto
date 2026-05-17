@@ -252,4 +252,4 @@ schedule.every().day.at("20:00").do(run_job)
 print("  Scheduler active — 8 AM and 8 PM daily. Keep open.")
 while True:
     schedule.run_pending()
-    time.sleep(30
+    time.sleep(30)
